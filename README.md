@@ -1,8 +1,60 @@
-# React + Vite
+# 명는거냥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+반려동물의 식단과 체중을 관리할 수 있는 웹 애플리케이션입니다.
 
-Currently, two official plugins are available:
+## 주요 기능
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 반려동물 프로필 관리
+- 체중 변화 기록 및 추적
+- 일일 칼로리 계산기
+- 다이어트 필요 여부 확인
+- SNS 로그인 지원 (카카오, 구글, 페이스북)
+
+## 기술 스택
+
+- React
+- Vite
+- TailwindCSS
+
+## 설치 방법
+
+1. 저장소 클론
+
+```bash
+git clone https://github.com/biggymom99/mung-ng-nyang.git
+cd mung-ng-nyang
+```
+
+2. 의존성 설치
+
+```bash
+npm install
+```
+
+3. 개발 서버 실행
+
+```bash
+npm run dev
+```
+
+## 주요 기능 설명
+
+### 반려동물 프로필 관리
+
+- 반려동물의 기본 정보 등록 (이름, 나이, 품종, 체중 등)
+- 프로필 사진 업로드
+- 정보 수정 및 삭제
+
+### 체중 관리
+
+- 정기적인 체중 기록
+- 체중 변화 그래프 제공
+
+### 칼로리 계산
+
+- 반려동물의 하루 필요 칼로리 계산
+- 다이어트 필요 여부 확인
+
+## 라이센스
+
+© 2024 명는거냥. All rights reserved.
