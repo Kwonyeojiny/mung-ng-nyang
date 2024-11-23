@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between px-4 py-2 text-white bg-[#1B5B91] ">
+    <nav className="flex justify-between px-4 py-2 text-white bg-brand-deep-blue">
       <Link to="/" className="text-2xl flex items-center gap-2">
         <img src="./icon.png" className="w-8 h-7" />
         멍는거냥

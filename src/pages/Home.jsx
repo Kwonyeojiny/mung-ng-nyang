@@ -1,11 +1,5 @@
-import Layout from '../components/Layout';
-
 const Home = () => {
-  return (
-    <Layout>
-      <div className="flex justify-center items-center">home</div>
-    </Layout>
-  );
+  return <div className="flex justify-center items-center">home</div>;
 };
 
 export default Home;
