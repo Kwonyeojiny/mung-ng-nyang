@@ -1,22 +1,19 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from './components/Layout';
+import { Route, Routes } from 'react-router-dom';
 import Login from './pages/login';
 import SignUp from './pages/signUp';
 import MyPage from './pages/MyPage';
+import Home from './pages/Home';
 
 const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/mypage" element={<MyPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <div className="font-Jua">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/mypage" element={<MyPage />} />
+      </Routes>
+    </div>
   );
 };
 
