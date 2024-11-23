@@ -1,11 +1,14 @@
+import { Outlet } from 'react-router-dom';
 import Copyright from './Copyright';
 import Navbar from './Navbar';
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col gap-20 min-h-screen font-Jua bg-brand-blue">
       <Navbar />
-      <main className="flex-grow bg-[#306FA4]">{children}</main>
+      <main className="flex-grow">
+        <Outlet />
+      </main>
       <Copyright />
     </div>
   );
